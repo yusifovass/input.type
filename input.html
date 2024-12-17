@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="tex.html" id="submit">
+    <br>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="enter name" required minlength="3">
+    <br> 
+    <label for="surname">Surname</label>
+    <input type="text" name="Surname" id="Surname" placeholder="enter surname" required minlength="3">
+    <br>
+    <label for="age">Age</label>
+    <input type="number" name="Age" id="Age" placeholder="enter age" required max="87">
+    <br>
+   <label for="email">Email</label>
+   <input type="email" name="emai" id="email" placeholder="enter email" required>
+    <br>
+    <label for="text"></label>
+    <input type="password" id="password" placeholder="enter password" required minlength="7">
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" value="1" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" value="2" name="gender">
+    <br>
+    <input type="datetime-local">
+    <br>
+    <label for="Document">Insert your cv here</label>
+    <input type="file" accept=".pdf" multiple>
+    <br>
+    <label for="number">Tel Number</label>
+    <input type="tel" value="+994" id="Tel" required >
+    <br>
+    <label for="Agree and continue">Agree and continue</label required>
+    <input type="checkbox">
+</form>
+    <button form="submit" type="submit">Submit</button>
+    <button form="submit" type="reset">Reset</button>
+</body>
+</html>
